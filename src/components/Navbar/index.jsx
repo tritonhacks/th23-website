@@ -50,19 +50,15 @@ const Navbar = () => {
             />
           </svg>
         </button> */}
-        <div className="nav-menu">
-          {/* <ul> */}
-            {links.map((link, key) => (
-              // <li>
-                <a class="underline" href={`#${link.id}`} key={`nav${key}`}>
-                  {link.displayText}
-                </a>
-              // </li>
-            ))}
-          {/* </ul> */}
-
-        </div>
-
+        {/* <ul> */}
+        {links.map((link, key) => (
+          // <li>
+          <a class="underline" href={`#${link.id}`} key={`nav${key}`}>
+            {link.displayText}
+          </a>
+          // </li>
+        ))}
+        {/* </ul> */}
       </div>
 
     </div>
