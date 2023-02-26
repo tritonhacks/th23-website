@@ -1,0 +1,80 @@
+#sponsors-wrapper {
+    color: var(--white);
+}
+
+#smoke-bottom {
+    z-index: 0;
+    position: relative;
+    width: 100vw;
+}
+
+#spaceship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#alien {
+    position: relative;
+    height: 60vh;
+    z-index: 10;
+}
+
+#beam {
+    position: relative;
+    width: 90vw;
+    margin-top: -108px;
+    margin-bottom: -92vh;
+}
+
+#sponsors {
+    font-size: 7rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+#sponsor-us {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+#email {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--white);
+    font-family: 'Cute Font', cursive;
+}
+
+#partner-images,
+#sponsor-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#sponsor-images img,
+#partner-images img {
+    height: auto;
+    max-width: 15rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#sponsor-images img:hover,
+#partner-images img:hover {
+    transform: scale(1.1);
+}
+
+.white-logo {
+    filter: invert(1);
+}
